@@ -1,0 +1,16 @@
+{
+  "name": "appium-tests-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser": "protractor ./config/protractor.conf.js",
+    "mobile": "protractor ./config/protractor.mobile.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.0"
+  }
+}
